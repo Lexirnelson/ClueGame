@@ -1,0 +1,1010 @@
+commit c077e3414de1b29cc10f9cc46cbac0c5afdafb99
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Thu Nov 25 22:00:18 2021 -0800
+
+    all tests passing, and functionality completely working
+
+commit 8aa9240e05c158f947999db9769e18e1125665fd
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Thu Nov 25 22:29:59 2021 -0700
+
+    maybe working staying in rooms
+
+commit 7bdb926bbe70de5c1269752e3a68dd6faeb8f257
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Thu Nov 25 19:49:33 2021 -0800
+
+    working on getting functionality implemented so that players moved in a suggestion can stay in that room for their next turn
+
+commit 7a931ffa253dbb2f10d23f02e0925ea912e18145
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Thu Nov 25 16:34:59 2021 -0800
+
+    taking break
+
+commit 78621b6fd8871b1e6ade11ca4906cf047a41dbaf
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Thu Nov 25 16:26:45 2021 -0800
+
+    all tests pass, assignment complete except for making sure players moved into rooms because of suggestions may remain there for their next turn
+
+commit bd5f00f3e91b4ede5c9a4bf1e63b018286a6f223
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Thu Nov 25 16:10:57 2021 -0800
+
+    Accusation and suggestion dialogs working completely
+
+commit 89e00610b366b79b0e0898cf269c28de6d6ce260
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Thu Nov 25 15:47:02 2021 -0800
+
+    changed GameControlPanel to imlpement singleton pattern
+
+commit ac78de27695965d1f141bc480cf016b638694600
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Nov 24 22:58:21 2021 -0800
+
+    working on figuring out how to get guess and guessResult values from the accusationSuggestionDialog
+
+commit b7dc8e04d97f4cf5b34b56d0d52b88038a477ca7
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Nov 24 22:41:13 2021 -0800
+
+    added new class file AccusationSuggestionDialog
+
+commit 14f3b35c3f7fb96b4cfe2c3ba17995c0b93e8667
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Nov 24 22:40:44 2021 -0800
+
+    suggestion and accusation dialogs displaying correctly, working on getting results of dialogs to translate properly into code
+
+commit cea835cbf0f43cfae205a7de755b49a0ec69d1f1
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Nov 24 21:41:38 2021 -0800
+
+    Accusation dialog working and correctly setting different values of accusation solution object
+
+commit 06953d4e7c82996391338def287f2198087f9ea1
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Nov 24 21:09:39 2021 -0800
+
+    accusation button closes on cancel
+
+commit a57cb04b93f3f28c134d3e44ca93d1940411d64e
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Nov 24 20:56:13 2021 -0800
+
+    Accusation dialog working except for submission or cancellation
+
+commit 2c1a8d5e408d87da3ff8bee589eb02ca73e94e47
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Wed Nov 24 21:10:20 2021 -0700
+
+    messing with the accusation text, need to call the suggestion text when entering a room or when called into a room
+
+commit 2832fcb3baecc2e2eb170149bfe3920cd6284894
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Wed Nov 24 18:49:00 2021 -0700
+
+    I think I finished the human accusation buttons, and correctly handle if human make correct or incorrect accusation
+
+commit 11cd88986822b80f032e24d4a395465efb5f0f25
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Tue Nov 23 17:25:39 2021 -0700
+
+    working on making human accusations work
+
+commit 73b5f2fd4112c3e542775aefc8105dada99fb332
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Tue Nov 23 15:41:37 2021 -0700
+
+    working on dropDown menus for accusations
+
+commit 678bd51baf7c7fed68a1b0454e8628082c01e8c6
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Tue Nov 23 01:25:09 2021 -0700
+
+    working on flagging the computer player for when they guess a solution that cannot be disproved and therefore is the solution to the game
+
+commit 536d65320ee33f5191b8bc8f316a4fd2b539302a
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Tue Nov 23 00:32:12 2021 -0700
+
+    Accusation making frame appears when make accusation button it pressed, still working on getting drop down menus to appear
+
+commit 23dd670eb96d6f596c3a1abd909bf37243999669
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Tue Nov 23 00:02:16 2021 -0700
+
+    Guess and guessResult messages correctly displaying in GameControlPanel
+
+commit b6dc9ae4e8c5f3da6f29632aa082b6476743f5c8
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Nov 22 23:39:58 2021 -0700
+
+    Messages display to tell when a suggestion is disproven depending on the requirments outlined in the assignment
+
+commit d01a0741fe57d237e43d3d4323d34f12ccbfcc10
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Nov 22 23:08:43 2021 -0700
+
+    rewrote handleSuggestion to utilixe player class disproveSuggestion method
+
+commit 2557516afe5d56b94be0b785a32a44d3257a856b
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Nov 22 22:52:23 2021 -0700
+
+    accused players succesfully moving to the room in which they are accused
+
+commit 1f3498f4be637bb10cab1e328bc7469f7b1f6a60
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Nov 22 21:56:34 2021 -0700
+
+    all tests passing
+
+commit 040b52ebd6b16301fdf689c5f899d629ba59c2fd
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Wed Nov 17 22:41:24 2021 -0700
+
+    updated gitlog
+
+commit e1a5b6ced8d855554148f4c855cee93dd2b629b0
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Wed Nov 17 22:38:51 2021 -0700
+
+    all tests pass
+
+commit 5f2f9ffdc75a6cc38e2accf3b8dbf751b99a6ddd
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Nov 17 21:00:59 2021 -0700
+
+    working on getting all tests to pass and fix memory issues
+
+commit f122b4da0a4f4886a14b597acf4549ea978d3443
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Nov 17 20:19:42 2021 -0700
+
+    Updated git log
+
+commit 2b61c55477f8d6b0c31e8d128ea019304fe44e9f
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Nov 17 20:19:06 2021 -0700
+
+    Code meets requirements for C23A
+
+commit 98ac8857a44b4f0108f68f312dcdd6b4245072b8
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Wed Nov 17 20:04:24 2021 -0700
+
+    working on 2 computer players moving at the same time
+
+commit 886ac61a2c2b83a38ecdcc8dc30e2b648888c3cf
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Tue Nov 16 20:53:46 2021 -0700
+
+    Movement partially working
+
+commit d3289c3e1a4c668a21250223f17de33a14417fd2
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Tue Nov 16 20:48:58 2021 -0700
+
+    Human player movement working, computer player movement not working yet
+
+commit 603e1bc60cf90762f5bc81ec919b7cdffcd1f033
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Tue Nov 16 15:09:28 2021 -0700
+
+    Mouse clicking working to move player to spots that are valid targets
+
+commit 282b505ea6b10c8bf7e572718fa796ef3345c25f
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Tue Nov 16 13:54:57 2021 -0700
+
+    added some code to identify if a cell is clicked during a players turn, does not quite work yet
+
+commit c6b5f87de54ca6fbb1a3cfcd9dcb293acacdf754
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Mon Nov 15 22:20:05 2021 -0700
+
+    still don't work, need to configure board clicking
+
+commit 7c5a1cdfe90b827d2c449bdb7284f9e2e942ab68
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Nov 15 20:52:53 2021 -0700
+
+    updated gitlog
+
+commit 9798cf8e1ab269293ff582244264e51838b9b001
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Nov 15 20:52:22 2021 -0700
+
+    added JOptionPane error message for when next button is clicked but the current player is not done
+
+commit 62c65921e5bf703d0c5de645e6498a6f15ec4048
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Nov 15 20:37:34 2021 -0700
+
+    Possible targets for each player succesfully calculated and displayed
+
+commit 48e17e84563db512bd70d0cfe0c9fd97facd15a0
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Nov 15 20:34:51 2021 -0700
+
+    Initial players targets succesfully fisplayed on game board graphic
+
+commit fddb71020234096f12246398b90d39db792d9b4c
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Nov 15 20:03:50 2021 -0700
+
+    Next button succesfully update current player and calculates a randomized dice roll
+
+commit 665387543c9f43dd7616a2d23e95887d07f834a6
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Nov 15 18:56:51 2021 -0700
+
+    Made all text fields in displayCards panel setEditable(false)
+
+commit cf7c3b732d49f87794820d1cb7ca23df35a01f7f
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Nov 15 18:51:14 2021 -0700
+
+    gitlog
+
+commit d76af24fcdc72bdee91106e734635b2e8eea1bb6
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Mon Nov 15 17:24:57 2021 -0700
+
+    initialized the next button events
+
+commit ad1e1f3db95b40fd27c2660ee53061036b090f17
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Nov 12 23:52:15 2021 -0700
+
+    submit assignment ready
+
+commit a8c5e0720154f06a99e1e7448388ed59127f4303
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Nov 12 23:50:44 2021 -0700
+
+    Completed C22A
+
+commit 8e33e41d8bbb73e2410b2d8ab1d19a3594d7c33b
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Nov 12 23:46:36 2021 -0700
+
+    saved all files
+
+commit e3be123478687010483af4c6df932b72890dd8c1
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Nov 12 23:45:23 2021 -0700
+
+    Everything working except for placement of room labels
+
+commit 89dbbf2f57891180950b9f1031350a33b17abd36
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Nov 12 23:11:10 2021 -0700
+
+    Added players graphics
+
+commit 9d1003baf65f4ef67bd9171a99d39c737bce1061
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Nov 12 23:03:59 2021 -0700
+
+    Board graphics working except for room labels
+
+commit 3649f5bf3052698c0501f18cada618034e02cb69
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Nov 12 22:35:49 2021 -0700
+
+    trying to fix null pointer errors when running ClueGame
+
+commit 032cfe006bb818d1cc6ef1f33b519b1a68df2294
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Nov 12 21:57:03 2021 -0700
+
+    Fixed nullPtr errors in DisplayCards
+
+commit 8cb65ecfe70515742ef36f8ed0ccb92ac3f1a42a
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Nov 12 21:51:37 2021 -0700
+
+    Working on getting clueGame frame to display and working through errors in DisplayCards
+
+commit e6efd3b8daaac43e30d9ed27900e51d050dc1009
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Nov 12 20:25:53 2021 -0700
+
+    Commit all files, (forgot to save all prior to last commit
+
+commit c614049f15c8eb8e763399fb7b25ca515c642273
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Nov 12 20:25:21 2021 -0700
+
+    Began writing general code for how boardCell objects and room Labels will draw themselves on the panel
+
+commit 87d45bcb1e00b747e3081a401e268253171792cd
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Fri Nov 12 18:37:06 2021 -0700
+
+    minor tweeks
+
+commit 0df626a38687935a5a9dd9e2b8b18ed1c007fe71
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Fri Nov 12 12:43:01 2021 -0700
+
+    initialized the paint component function
+
+commit 0bd452c05342fc771aa202777d661339d15c917e
+Author: Alexa Nelson <anelson1@mines.edu>
+Date:   Tue Nov 9 14:59:18 2021 -0700
+
+    made the cluegame class
+
+commit c874b40d42d13279558e127313259c8c6748def3
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Nov 8 22:35:32 2021 -0700
+
+    added comments to GameControlPanel
+
+commit d44608e157abef98e86b044e8ff39ef5c1442c5c
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Nov 8 22:32:02 2021 -0700
+
+    Completed GameControlPanel
+
+commit 659fa23896f57e46b33433ff99aee52098602373
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Mon Nov 8 20:44:13 2021 -0700
+
+    started tracking working display cards
+
+commit 6d4c55cc87e4b496e4ee9338fdd4b66d26368a77
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Mon Nov 8 20:43:36 2021 -0700
+
+    Display cards tested and works
+
+commit f46442d09b95e0550f996be593b49d227e5f791a
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Nov 8 15:40:49 2021 -0700
+
+    Working on GameControlPanel
+
+commit 61bf59cebbc4e8cd9ad7f32a872351d01fd43a8b
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Nov 8 14:51:12 2021 -0700
+
+    Started working on the game control panel
+
+commit e618a2ed44dc6af560ff004d8170483608a4cc66
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Sat Nov 6 20:28:49 2021 -0600
+
+    updated gitlog
+
+commit 04654e596024e3f29540543cb16bdcebe9b6b73a
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Sat Nov 6 20:27:37 2021 -0600
+
+    all ComputerAItests pass
+
+commit 7674c98726627c2cb53d4075e0f55465c256f6aa
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Fri Nov 5 23:42:35 2021 -0600
+
+    updated git log
+
+commit 2e7428fe6b0e1a5f3c262ea52bf4e80c8d86d33f
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Fri Nov 5 23:38:39 2021 -0600
+
+    working on computer suggestion tests
+
+commit ca8c44212c07fa43c69f77d9c387ea4907a4b2cd
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Fri Nov 5 22:34:34 2021 -0600
+
+    handle suggestion test written and passes
+
+commit 48bde812e5b637cc4b36743c73fea134a2f4b2f6
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Nov 5 20:23:47 2021 -0600
+
+    checkComputerTarget test passes
+
+commit 9c829d89213307f328b803272d1ac4db9ab189e4
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Nov 5 20:02:33 2021 -0600
+
+    Wrote selectTargets method and began writing according tests
+
+commit 25e6abbfd21655ce3ce4fa78033e2a7b190d74e8
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Nov 5 18:14:41 2021 -0600
+
+    checkDisproveSuggestions passes
+
+commit 9ed150b393d7564ab3bae5cd5298036c5afa8520
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Nov 5 17:57:38 2021 -0600
+
+    checkAccusation passes
+
+commit 2a46b0c251c5dea9bb9658bc7a95cbb3a87cd2a4
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Fri Nov 5 15:32:38 2021 -0600
+
+    finished checkAccusation and checkDisprove suggestion tests for human player (doesn't fail or error though, will just run)
+
+commit aef889e50e1718f93e1b248424afb736bed4c0c1
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Thu Nov 4 15:09:44 2021 -0600
+
+    Commiting again because Im dumb
+
+commit af81f415395033d9f6adf4109ad7860bfc43baf2
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Thu Nov 4 15:08:30 2021 -0600
+
+    Started C20A-1 assignment
+
+commit cea2b18687835c90bd4346b385cce78d7f0dc2b8
+Author: Alexa Nelson <anelson1@mines.edu>
+Date:   Thu Nov 4 14:32:58 2021 -0600
+
+    refactored some variable names
+
+commit 61ddc535fc677bd697cf2449abc4031308182787
+Author: Alexa Nelson <anelson1@mines.edu>
+Date:   Thu Nov 4 14:14:40 2021 -0600
+
+    minor refactoring for style
+
+commit f154b83352dc9592270c4f366d698e0619f3c400
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Mon Nov 1 23:20:19 2021 -0600
+
+    update gitlog
+
+commit e1d65f0416bedb7939386784c017ab406e78d609
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Mon Nov 1 23:18:41 2021 -0600
+
+    all tests pass
+
+commit 3ba0f8f21c113d8a970dbd9a197b16faeedec42e
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Mon Nov 1 21:54:18 2021 -0600
+
+    test cards passes, initialized test shuffle (which fails)
+
+commit 77f0e2ef3056ccd3ec354893538c47032efc34cf
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Nov 1 19:59:55 2021 -0600
+
+    Working on making card tests pass
+
+commit 012709e84a0e60885aa05b499dda94d2b92519f7
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Nov 1 19:47:17 2021 -0600
+
+    Player tests all pass, cards tests all fail but do not error
+
+commit 87a26bed70bcf124b3dcc516ec982fa518aaa79b
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Mon Nov 1 15:37:57 2021 -0600
+
+    wrote part of cards tests and people tests fail not error
+
+commit ca132712f89755b93bbf6483506bbffc5f03776e
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Nov 1 14:19:30 2021 -0600
+
+    Updated ClueSetup.txt
+
+commit dbd2904604b71afa6b7861512aa35f14d2b0bbe9
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Mon Nov 1 14:08:46 2021 -0600
+
+    initialized some tests
+
+commit c56701506e4c2a2b77b5abce775022148f423a16
+Merge: 73e9529 1cfa12d
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Mon Nov 1 13:04:51 2021 -0600
+
+    Merge branch 'main' of https://github.com/abigailko17/ClueGame
+
+commit 1cfa12dae2efc4736f90a058ac44f404ac9cc040
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Nov 1 11:15:22 2021 -0600
+
+    Loading new file info for players
+
+commit 018d530d0ccb251042d6d36dd8ddf6e18897ffb3
+Author: Alexa Nelson <anelson1@mines.edu>
+Date:   Thu Oct 28 14:52:58 2021 -0600
+
+    made the test file
+
+commit 0ba62a00c9adf5ad0b72be629502b4e4727f8153
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Thu Oct 28 14:25:56 2021 -0600
+
+    Made code to match given UML diagram
+
+commit 84cbde91ce17e0f6afa46ebb1340e945be018fcb
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Thu Oct 28 14:12:30 2021 -0600
+
+    Added Solution,Player,and Card associated classes
+
+commit 73e9529b0b5151b00b54ad2990c9049e783afbfc
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Wed Oct 27 22:12:25 2021 -0600
+
+    added case none to setDoorways and setDoorwayAdjacenices
+
+commit 2b4d73a8e1adb6c011d3a11c8d692261040430e4
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Wed Oct 27 22:08:56 2021 -0600
+
+    refactored BoardCell spacint to look nicer
+
+commit 94581fce078e5b3c66bf9dc5f66c4f35285f7042
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Wed Oct 27 21:43:30 2021 -0600
+
+    refactored the spacing of board to look nicer
+
+commit 32e2bb62650811f1355d64f106d6b483aaa8d661
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Oct 27 21:22:08 2021 -0600
+
+    Changed name of LRUD to addDirectAdjacencies to make the functionality of it clearer to outside perspectives
+
+commit 1483e0be0c3bde3a4ec689718ed1bc660347aeab
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Oct 27 21:09:43 2021 -0600
+
+    Extracted fillGrid from loadLayoutConfig to specilize the functionality of each individual method
+
+commit 17f6e86c5315b98db4a6b3ee71e75d3affa33e6f
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Oct 27 21:03:02 2021 -0600
+
+    Switched setDoorwayAdjacencies to a switch statement instead of if-else so the code is easier to comprehend and looks visually cleaner
+
+commit 99891cca87aa4993f3407c2d0b341b84fa0f13c0
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Oct 27 20:59:33 2021 -0600
+
+    refactored LRUD and calcAdjacencies methods so that each method is only responsible for one portion of the calculation of adjacencies
+
+commit f3edcc1e348608d9b1881f41dbbbec6a87124fcd
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Oct 27 20:48:31 2021 -0600
+
+    Changed fillGrid to use switch statements instead of if-else in order to clean the code and make it easier to comprehend
+
+commit 947572260adbfc5d4f6fc7ec89ac6cfb27a7d7da
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Oct 27 20:42:17 2021 -0600
+
+    Changed setDoorways to include switch statements instead of if-else statements so it looks cleaner and is easier to understand the logic
+
+commit 66b2d2eef02f6d8ff634495d6e0e2c4120ddc705
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Oct 20 23:02:44 2021 -0600
+
+    Refactored
+
+commit fc5cfb752312c862208d67533cefbdac445534e5
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Oct 20 19:52:46 2021 -0600
+
+    All tests pass
+
+commit f87665c46a71535aedc7d4019a8d69117fe1a136
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Wed Oct 20 19:04:12 2021 -0600
+
+    fixed csv
+
+commit 13ad1c2f1f96349ac44403f466c98bd9f1169453
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Oct 20 18:59:53 2021 -0600
+
+    Fixed ClueLayout files
+
+commit 7dd6e13cfbce8f583774d83fb0d53e99968cfe2e
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Oct 20 17:47:41 2021 -0600
+
+    Started debugging AdjTests
+
+commit e99052602dba4f58cec4eebef2a7d04bad4f1c3b
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Oct 20 17:34:57 2021 -0600
+
+    All 306 tests pass
+
+commit b97eaee4cf221b8b8149f6546ff2732023fd3e96
+Merge: bc8cb21 7cf992c
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Wed Oct 20 16:03:25 2021 -0600
+
+    Merge branch 'main' of https://github.com/abigailko17/ClueGame
+
+commit 7cf992c7fb18515440efb7d812b738bf4522c66d
+Author: Alexa Nelson <43015120+Lexirnelson@users.noreply.github.com>
+Date:   Wed Oct 20 15:01:40 2021 -0700
+
+    Delete .project
+
+commit 515f7f26ede913a02a776ab563d157ea6b088f17
+Author: Alexa Nelson <43015120+Lexirnelson@users.noreply.github.com>
+Date:   Wed Oct 20 15:01:32 2021 -0700
+
+    Delete .classpath
+
+commit 6e74c84cff944d7f28fc1bcacd00017216ad3937
+Author: Alexa Nelson <43015120+Lexirnelson@users.noreply.github.com>
+Date:   Wed Oct 20 15:00:14 2021 -0700
+
+    fixed gitignore
+
+commit bc8cb21a495696754f7a255119753415d9a99092
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Wed Oct 20 15:34:16 2021 -0600
+
+    adding adj for passages works, need to refactor code for setting doorways
+
+commit d6504472467c8d56a9f0132122277bd873cf92a1
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Wed Oct 20 13:21:37 2021 -0600
+
+    git issues fixed
+
+commit 3ad61d1f3dff1fa8b1dd3da9b02ed08fd3c49678
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Wed Oct 20 12:46:17 2021 -0600
+
+    trying to fix github
+
+commit ce8b2f899c80dc7bc9b5ce7dd224ebac614256c6
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Wed Oct 20 12:42:28 2021 -0600
+
+    added a setter, getter, and boolean for secretpassage in the room class
+
+commit 1ae859f3530ca74f29f9e98641edebdf5c0a413c
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Tue Oct 12 21:28:38 2021 -0600
+
+    initialized BoardAdjTargetTest
+
+commit 66d1849844f8ead7ccd09e52c72e8a3f15bbc402
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Tue Oct 12 19:05:45 2021 -0600
+
+    added comments
+
+commit bec1675ebcebf86c82a4fea923c9786638e74c69
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Tue Oct 12 19:03:51 2021 -0600
+
+    added comments
+
+commit f4df42a26ed60dddef53b438e7a3b0a328b82e2e
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Tue Oct 12 15:46:00 2021 -0600
+
+    Needs comments, but otherwise complete for turning in
+
+commit 6cbb44efbe543b7e05dd7d3efa7e411015782b9f
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Tue Oct 12 15:37:29 2021 -0600
+
+    All tests pass
+
+commit dfd5e17f75b5db04265ec3d30f0bce7396f8e2b1
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Tue Oct 12 15:20:28 2021 -0600
+
+    All tests up to date
+
+commit 715d1c4c6d18b32d60e5323e159a8cf702786223
+Author: Alexa Nelson <anelson1@mines.edu>
+Date:   Tue Oct 12 15:04:30 2021 -0600
+
+    all tests pass
+
+commit f206fae184d353b9136a528076244ebba7d2de3c
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Tue Oct 12 14:39:35 2021 -0600
+
+    Began writing BadConfigFormatException
+
+commit 2bf9bf044faf988f936633061d7eb2b1a7b89808
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Tue Oct 12 14:34:58 2021 -0600
+
+    All tests except for ExceptionTests306 pass
+
+commit d731e30aebd272a6a777a34738e78e8b3c109b9a
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Oct 11 22:28:45 2021 -0600
+
+    Began working on making BoardAdjTargetTests pass
+
+commit aaa9237b13d7b419e080e098bef391880ff9a1e6
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Oct 11 20:07:33 2021 -0600
+
+    refactored
+
+commit 9271e31bed0739ff6cd381178eea4e8ddd1e585c
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Oct 11 19:34:01 2021 -0600
+
+    All FileInItTests pass
+
+commit 474e36197e6c7da630887950093398d0b117ea3d
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Oct 11 18:03:35 2021 -0600
+
+    Work on tests passing in FileInItTests306
+
+commit ce318512159e8f565e32de852947d39a624d7d0f
+Author: Alexa Nelson <anelson1@mines.edu>
+Date:   Mon Oct 11 15:51:23 2021 -0600
+
+    working on tests passing
+
+commit dadb3a7413bda27f2845e8a6ba4082ec39032b26
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Oct 11 15:04:10 2021 -0600
+
+    All BoardAdjTarget Tests fail instead of error, began writing code to calculate targets and adjacency lists
+
+commit 8e57510b0202f215ae0f6d7ad16bdae6ae4f02e8
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Oct 11 14:26:01 2021 -0600
+
+    All FileInItTests.306 tests fail instead of erroring, completed methods to read in files and create the game board grid
+
+commit 49f7c6e69771f78845492d51974e0d47fb164046
+Author: Alexa Nelson <anelson1@mines.edu>
+Date:   Mon Oct 11 14:08:38 2021 -0600
+
+    fixing file io errors
+
+commit 8d20c77143816a81eb70ea75bd78d5c2a8ce869d
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Oct 11 13:36:15 2021 -0600
+
+    Worked on reading and storing information from files
+
+commit ca56c1648830462a028b3c506208b7f8835fc0e9
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Oct 11 13:17:05 2021 -0600
+
+    fixing errors
+
+commit e9d3609a45429d6f591dc18ab12264ebe7dbf5d2
+Merge: 88ffd23 e241f39
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Oct 11 13:12:20 2021 -0600
+
+    Merge branch 'main' of https://github.com/abigailko17/ClueGame into main
+    Merge branches
+
+commit 88ffd232763e21c16241de2de0590d986c35152f
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Oct 11 12:44:39 2021 -0600
+
+    Started working on loadLayoutConfig
+
+commit e241f39695b4df1d366857fb0202c16fc1adbcf8
+Merge: 03dbfdd 931b5fc
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Mon Oct 11 12:37:06 2021 -0600
+
+    Merge branch 'main' of https://github.com/abigailko17/ClueGame
+
+commit 03dbfdd2af33f85a48fd564a14ffb45e0b8b5475
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Mon Oct 11 12:36:39 2021 -0600
+
+    added the layout and setup files and began file i/o
+
+commit 931b5fc4fc68275f87cc47b4d8a95aeea7c0a32f
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Oct 11 12:14:02 2021 -0600
+
+    Downloaded BoardAdjTargetTest306.java
+
+commit 09cd0e2e223a13f0c2d58be4f5f47bf660ff699b
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Fri Oct 8 22:52:40 2021 -0600
+
+    initialized testing
+
+commit d88228dbdfcdc089df25622c64991b8efa070d1d
+Merge: dcb32db be1a7a3
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Fri Oct 8 21:51:37 2021 -0600
+
+    Merge branch 'main' of https://github.com/abigailko17/ClueGame
+
+commit dcb32db9cedd366b64fd5f8b3f1d9d93b516200a
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Fri Oct 8 21:51:30 2021 -0600
+
+    merging
+
+commit be1a7a3541afe4ddb309385e840692b71a06ed2e
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Oct 8 21:36:36 2021 -0600
+
+    Worked on making all tests fail instead of error
+
+commit dd90909a468b53040f21694078905b1772318a4b
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Oct 8 13:53:20 2021 -0600
+
+    Added getters and setters to Board,and BoardCell.
+
+commit 86242f672762fe2ad54d0b0aea0a13bf8fb82534
+Merge: 0d067f8 35746e7
+Author: Alexa Nelson <anelson1@mines.edu>
+Date:   Fri Oct 8 13:50:19 2021 -0600
+
+    Merge branch 'main' of https://github.com/abigailko17/ClueGame
+
+commit 0d067f80f7016716d58ebe468bd319c05742e08d
+Author: Alexa Nelson <anelson1@mines.edu>
+Date:   Fri Oct 8 13:49:34 2021 -0600
+
+    initialized DoorDirection and BoardCell
+
+commit 35746e7c8aa07d5498a25145ef60d9b0c1a6a451
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Oct 8 13:43:30 2021 -0600
+
+    Completed Room class stub
+
+commit cdaffd6d57a2691afa5c511f4d40a04f7aa25cc0
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Oct 8 13:41:02 2021 -0600
+
+    Completed Board class stub
+
+commit 1fc924c63e64172a60d191f93619e1cc060e88cc
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Oct 8 13:30:37 2021 -0600
+
+    Outlined clueGame package
+
+commit 166a2747616171e4760745e31a2a3ff7b603087f
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Oct 8 13:22:16 2021 -0600
+
+    Added layout and setup files
+
+commit cf9a836571c4e3d8c235ed5e740adf259da56fc2
+Merge: 2e80937 57b8361
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Oct 8 13:16:32 2021 -0600
+
+    Merge branch 'main' of https://github.com/abigailko17/ClueGame into main
+    "added files"
+
+commit 2e80937b728e7fd20e6524dc72e809df2eba8a4d
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Fri Oct 8 13:15:42 2021 -0600
+
+    Downloaded ClueInItFiles and added to project
+
+commit 57b83619f0ed5f73c7868c8e2c5d0db1c008744a
+Author: Alexa Nelson <anelson1@mines.edu>
+Date:   Fri Oct 8 13:10:26 2021 -0600
+
+    added gitlog
+
+commit 908a2060f720cafd22a2acd2c0cbefa60d5b5b45
+Author: Alexa Nelson <anelson1@mines.edu>
+Date:   Fri Oct 8 13:06:05 2021 -0600
+
+    updated the readme
+
+commit 1de8db222d20952a0a5c360700034b50b199191e
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Thu Oct 7 15:10:10 2021 -0600
+
+    All BoardTests pass
+
+commit fd26f6542050ef29fc3f1234164162620cb2973f
+Author: Alexa Nelson <anelson1@mines.edu>
+Date:   Thu Oct 7 14:42:18 2021 -0600
+
+    initialiezed the calc targets algorithm
+
+commit cbb979e02822436b0e58c187679a1cbe8c201dde
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Tue Oct 5 15:03:22 2021 -0600
+
+    Refined code that populated adjacencies lists for each cell. All adjacency tests passed
+
+commit a5a942c7cd944833e47d31db9e9dd121b8d9fa14
+Author: Alexa Nelson <anelson1@mines.edu>
+Date:   Tue Oct 5 14:48:08 2021 -0600
+
+    working on making adjaceny easier to read
+
+commit 3c0bf4705236fc1d68bfd0dc793a578bddba85c0
+Author: Alexa Nelson <anelson1@mines.edu>
+Date:   Tue Oct 5 14:21:23 2021 -0600
+
+    made adjacency test work again and renamed vars to match assignment
+
+commit 00c84cf0ec64f0c9f7d9c1460eaf24404ddc3140
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Mon Oct 4 20:39:03 2021 -0600
+
+    updated readme
+
+commit 101e4b2c630ecf3797b4b39176dbc313817ef348
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Mon Oct 4 20:34:03 2021 -0600
+
+    made tests their own methods
+
+commit b215451f06fd88cda2af70695f7875ec355359e1
+Author: lexi nelson <lexirnelson@gmail.com>
+Date:   Mon Oct 4 20:18:03 2021 -0600
+
+    finished the tests and temporarily disabled code that makes adjacency tests work
+
+commit f08b075a65b062536c5ef5d59d981616e341241a
+Author: Alexa Nelson <anelson1@mines.edu>
+Date:   Mon Oct 4 17:03:16 2021 -0600
+
+    adjacency test works
+
+commit acc5cb2086c5798c56b76ae765d5e90b7224f8fa
+Author: Alexa Nelson <anelson1@mines.edu>
+Date:   Mon Oct 4 16:49:12 2021 -0600
+
+    setting up the board now also initializes the addjacent spaces, and added adjacency tests for [0][0] and [3][3]
+
+commit ede9faba6e2079f9a4e9c5045e7ea1da8421b72a
+Author: Alexa Nelson <anelson1@mines.edu>
+Date:   Mon Oct 4 15:05:14 2021 -0600
+
+    initialized the BoardTestsExp JUnit test class
+
+commit 63d7cac24337bb0767190103c5979db6578cbacb
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Oct 4 15:00:48 2021 -0600
+
+    Added TestBoard class
+
+commit 3d8391ef1a2e84587a9b193922b99192306c2a9c
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Oct 4 14:41:29 2021 -0600
+
+    Added TestBoardCell class
+
+commit e81ede51e112656c4318649d0c25dda7cf21ed4a
+Author: Abby Berg <audreychip@gmail.com>
+Date:   Mon Oct 4 14:23:27 2021 -0600
+
+    Initial Commit
+
+commit b3b6a92d2f0b874f67ee999c93fcf9e20027e906
+Author: abigailko17 <74586905+abigailko17@users.noreply.github.com>
+Date:   Mon Oct 4 14:06:18 2021 -0600
+
+    Initial commit

@@ -1,0 +1,14 @@
+cell 2,6 has a door that opens Left into church, cell 7,11 has a door that opens 
+up into the town hall, cell 12, 17 has a door that opens right into the general 
+store, and cell 4,2 has a door that opens down into the post office. 
+
+testRoomLabels was altered to fit the format of our room names and character 
+abbreviations. 
+
+num rows and num columns is 25 rows and 24 columns for our board
+
+changed the file name input
+
+changed the test number of doors to 14
+
+changed parts of testrooms to test for room testing formatted to our board. 
