@@ -1,0 +1,27 @@
+// Buildings and building cards
+Room, Saloon, S
+Room, Sheriff Station, P
+Room, Bank, B
+Room, Town Hall, T
+Room, General Store, G
+Room, Church, C
+Room, Barber Shop, H
+Room, Inn, I
+Room, Post Office, O
+// Other spaces on board
+Space, Unused, X
+Space, Walkway, W
+// Players
+Player, Citizen, Red, H, 16, 11
+Player, Sheriff, Blue, C, 7, 17
+Player, Banker, White, C, 21, 3
+Player, Cowboy, Green, C, 11, 15
+Player, Bandit, Yellow, C, 20, 3
+Player, Bartender, Black, C, 25, 8
+// Weapons
+Weapon, Gun
+Weapon, Knife
+Weapon, Horseshoe
+Weapon, Bottle
+Weapon, Bible
+Weapon, Pitchfork
